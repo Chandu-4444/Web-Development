@@ -1,0 +1,30 @@
+/* Border: Size Style Color; */
+body {
+  background-color: #eeeeee;
+}
+
+h1 {
+  color: #0d7377;
+}
+
+h3 {
+  color: #32e0c4;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+
+
+
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 10%;
+}
