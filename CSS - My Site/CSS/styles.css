@@ -1,17 +1,97 @@
 body
 {
   margin: 0;
+  text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+.top-container
+{
+  background-color: #e8ffff;
+  position: relative;
+  padding-top: 100px;
+
 }
 
 h1
 {
-  margin-top: 0;
+  width: 20%;
+  margin: 0 auto;
+  font-family: 'Sacramento', cursive;
 }
 
-
-
-
-div
+h2
 {
-  background-color: #e8ffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#top-cloud
+{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+
+#bottom-cloud
+{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+
+.profile-img
+{
+  height: 200px;
+  width: auto;
+  border-radius: 100%;
+}
+
+.c-img
+{
+  width: auto;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.java-img
+{
+  width: auto;
+  height: 250px;
+  border-radius: 100%;
+}
+
+.python-img
+{
+  width: auto;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.bash-img
+{
+  width: auto;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.linux-img
+{
+  border-radius: 50%;
+}
+
+.html-css-img
+{
+  border-radius: 100%;
+}
+
+.mysql-img
+{
+  border-radius: 100%;
 }
