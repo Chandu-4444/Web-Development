@@ -1,97 +1,210 @@
-body
-{
+/* 100% = 16px in font-size */
+
+body {
+  font-size: 1.3em;
   margin: 0;
+  color: #40514e;
   text-align: center;
-font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif;
+}
+
+.intro
+{
+  margin: auto;
+  width: 40%;
 }
 
 .top-container
 {
+  z-index: -2;
   background-color: #e8ffff;
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
+}
+
+.middle-container
+{
+  margin: 100px;
+}
+
+
+
+p
+{
+  line-height: 2;
 
 }
 
-h1
-{
-  width: 20%;
-  margin: 0 auto;
+h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
 h2
 {
-  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-weight: normal;
+  font-size: 2.5rem;
+  font-family: 'Roboto Slab', serif;
 }
 
-h3
-{
-  font-family: 'Montserrat', sans-serif;
+h3 {
+  color: #66bfbf;
+  font-family: 'Roboto Slab', serif;
 }
 
-#top-cloud
+hr
 {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-
+  border: 6px black dotted ;
+  border-bottom: none;
+  width: 40%;
+  margin: 100px auto;
 }
 
-#bottom-cloud
-{
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-
-}
-
-.profile-img
-{
-  height: 200px;
-  width: auto;
-  border-radius: 100%;
-}
-
-.c-img
-{
-  width: auto;
-  height: 200px;
-  border-radius: 100%;
-}
-
-.java-img
-{
+#top-cloud {
+  z-index: -1;
   width: auto;
   height: 250px;
-  border-radius: 100%;
+  position: absolute;
+  right: 100px;
+  top: 10px;
+
 }
 
-.python-img
-{
+#bottom-cloud {
+  z-index: -1;
   width: auto;
-  height: 300px;
-  border-radius: 100%;
+  height: 250px;
+  position: absolute;
+  left: 100px;
+  bottom: 270px;
 }
 
-.bash-img
-{
+.profile-img {
+  height: 200px;
   width: auto;
-  height: 300px;
   border-radius: 100%;
 }
 
-.linux-img
+
+
+.skill-row
 {
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+}
+
+
+.c-img {
+  margin-right: 30px;
+  float: left;
+  width: 25%;
+  border-radius: 100%;
+}
+
+.java-img {
+  margin-left: 30px;
+
+  float: right;
+width: 25%;
+  border-radius: 100%;
+}
+
+.python-img {
+  margin-right: 30px;
+
+  float: left;
+  width: 25%;
+  border-radius: 100%;
+}
+
+.bash-img {
+  margin-left: 30px;
+
+  float: right;
+  width: 25%;
+  border-radius: 100%;
+}
+
+.linux-img {
+  margin-right: 30px;
+
+  float: left;
+  width: 25%;
   border-radius: 50%;
 }
 
-.html-css-img
-{
+.html-css-img {
+  margin-left: 30px;
+
+  float: right;
+  width: 25%;
   border-radius: 100%;
 }
 
-.mysql-img
-{
+.mysql-img {
+  margin-right: 30px;
+
+  float: left;
+  width: 25%;
   border-radius: 100%;
+}
+
+.contact-message
+{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+.btn {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:12px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+  font-family: 'Roboto Slab', serif;
+	color:#ffffff;
+	font-size:18px;
+	padding:9px 28px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container
+{
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+a
+{
+  color: #11999e;
+  font-family: 'Roboto Slab', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+.copyright
+{
+  color: #eaf6f6;
+  font-size: 0.75em;
+  padding: 20px 0px;
 }
