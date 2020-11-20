@@ -29,6 +29,7 @@ body {
 
 
 
+
 p
 {
   line-height: 2;
@@ -95,7 +96,20 @@ hr
   width: 50%;
   margin:100px auto 100px auto;
   text-align: left;
+
 }
+
+/* @media screen and (max-width: 480px) {
+  .skill-row
+  {
+    background-color: #9ad3bc;
+    padding: 10px;
+    border-radius: 30%;
+  }
+
+} */
+
+
 
 
 .c-img {
@@ -153,6 +167,38 @@ width: 25%;
   border-radius: 100%;
 }
 
+.projects-row
+{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+
+}
+
+.snake-img
+{
+  margin-right: 30px;
+
+  width: 20%;
+  height: auto;
+  float: left;
+}
+
+.pong-img
+{
+
+  width: 20%;
+  height: auto;
+  float: right;
+}
+
+.road-img
+{
+  margin-right: 30px;
+  width: 20%;
+  height: auto;
+  float: left;
+}
 .contact-message
 {
   width: 40%;
@@ -195,6 +241,11 @@ a
   font-family: 'Roboto Slab', serif;
   margin: 10px 20px;
   text-decoration: none;
+}
+
+.project-links
+{
+  color: #aee6e6;
 }
 
 a:hover
