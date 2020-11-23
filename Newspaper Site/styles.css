@@ -1,0 +1,93 @@
+.main-brand {
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Meddon', cursive;
+    margin: 60px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.story-title {
+    white-space: wrap;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.story-text {
+    white-space: wrap;
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+
+.row {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+}
+
+.story {
+    border: 1px solid #333;
+    padding: 0 10px;
+}
+
+.quarter {
+    width: 20%;
+}
+
+.half {
+    width: 50%;
+
+}
+
+.three-quarter {
+    width: 75%;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item {
+    list-style-type: none;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 30px;
+
+
+}
+
+.nav-item:nth-child(1) {
+    background-color: #ffeaa7;
+}
+
+.nav-item:nth-child(2) {
+    background-color: #14d645;
+}
+
+.nav-item:nth-child(3) {
+
+    background-color: #ffa7dd;
+}
+
+.nav-item:nth-child(4) {
+    background-color: #0fd3d3;
+}
+
+.nav-item:nth-child(5) {
+    background-color: #eb3131;
+}
