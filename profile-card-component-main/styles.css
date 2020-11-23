@@ -15,7 +15,21 @@ body {
 
 }
 
+.top-image {
+    right: 100px;
+    position: relative;
+    bottom: 500px;
+}
+
+.bot-image {
+    z-index: -1;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
 .card {
+    box-shadow: 1px 1px 20px 1px rgb(0, 0, 0);
     top: 25%;
     position: absolute;
     height: 370px;
