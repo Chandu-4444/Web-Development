@@ -1,0 +1,126 @@
+* {
+    margin: 15px;
+    padding: 0;
+    text-align: center;
+}
+
+.title-main {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+.title2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+
+.info {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
+
+}
+
+.caption {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+
+}
+
+.container {
+    margin: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    text-align: left;
+    font-size: 13px;
+    background-color: hsl(0, 0%, 98%);
+    border: 1px black solid;
+    border-radius: 5px;
+    margin: 10px;
+    width: 100px;
+    box-shadow: 3px 3px 10px 8px hsl(0, 0%, 85%);
+    transition: all 0.3s ease-in-out;
+}
+
+img {
+    float: right;
+}
+
+
+
+.supervisor-card {
+    width: 400px;
+    height: 50%;
+    border-top: rgb(143, 242, 255) 5px solid;
+}
+
+
+
+.builder-card {
+    width: 325px;
+    height: 50%;
+    border-top: red 5px solid;
+
+}
+
+.karma-card {
+    width: 325px;
+    height: 50%;
+    border-top: orange 5px solid;
+}
+
+.calculator-card {
+    width: 400px;
+    height: 50%;
+    border-top: rgb(103, 103, 247) 5px solid;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 300px;
+    }
+}
+
+.card:hover {
+    /*
+    animation-name: trans;
+    animation-duration: 0.5s;
+    */
+
+    /*transform: scale(1.1);*/
+    transform: scale(1.1);
+}
+
+@keyframes trans {
+    100% {
+        scale: 1.1;
+    }
+
+}
