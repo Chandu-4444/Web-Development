@@ -53,6 +53,8 @@ As mentioned above, there are a number of ways to host your project for free. We
 2. Connect your project to Vercel from the ["Import project" page](https://vercel.com/import), using the "From Git Repository" button and selecting the project you want to deploy.
 3. Once connected, every time you `git push`, Vercel will create a new [deployment](https://vercel.com/docs/v2/platform/deployments) and the deployment URL will be shown on your [Dashboard](https://vercel.com/dashboard). You will also receive an email for each deployment with the URL.
 
+[Project URL](https://web-development-our-card-feature.vercel.app/)
+
 ## Sharing your solution
 
 There are multiple places you can share your solution:
