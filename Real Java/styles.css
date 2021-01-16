@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+nav,
+header,
+footer
+{
+    display:block;
+}
+
+nav
+{
+    width:100%;
+    margin: 0;
+}
+
+nav ul
+{
+    background-color: rgb(211, 211, 211);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.heading
+{
+    font-family: 'Berkshire Swash', cursive;
+    margin-left: 20px;
+    font-size: 40px;
+    color: black;
+    margin-right: 10px;
+}
+
+.logo
+{
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+ul.topnav li 
+{
+    list-style-type: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right
+{
+
+    float: right;
+    margin-top: 18px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+ul.topnav li.topnav-right input
+{
+    padding: 3px;
+}
+
+
+ul.topnav li a
+{
+    text-decoration: none;
+}
+
+.container
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.card
+{
+   
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+}
+
